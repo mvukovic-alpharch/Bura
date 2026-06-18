@@ -3,3 +3,5 @@ config/.env
 logs/
 __pycache__/
 *.pyc
+
+racing/data/
