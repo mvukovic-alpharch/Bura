@@ -1,6 +1,0 @@
-{
-  "freshness_minutes": {"dfs": 1440, "lineups": 30, "injuries": 60, "market": 60, "projections": 180, "simulations": 180, "optimizer": 180},
-  "materiality": {"p_start": 0.10, "expected_minutes": 10.0, "mean": 1.5, "p90": 2.5, "market_probability": 0.05},
-  "anomaly": {"value_vs_salary": 3.0, "model_vs_peer_group": 5.0, "team_environment_zscore": 2.5},
-  "qa": {"max_cold_start_fraction": 0.40, "max_age_minutes": {"lineups": 45, "injuries": 90, "market": 120}, "require_market": false}
-}
