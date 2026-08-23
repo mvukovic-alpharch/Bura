@@ -1,0 +1,34 @@
+{
+  "ruleset": "draftkings-classic-soccer",
+  "weights": {
+    "goals": 10.0,
+    "assists": 6.0,
+    "shots": 1.0,
+    "shots_on_target": 1.0,
+    "assisted_shots": 1.0,
+    "crosses": 0.7,
+    "fouls_drawn": 1.0,
+    "fouls": -0.5,
+    "tackles": 1.0,
+    "interceptions": 0.5,
+    "yellow_cards": -1.5,
+    "red_cards": -3.0,
+    "penalties_saved": 3.0,
+    "saves": 2.0,
+    "goals_conceded": -2.0,
+    "defender_clean_sheet": 3.0,
+    "goalkeeper_clean_sheet": 5.0,
+    "goalkeeper_win": 5.0
+  },
+  "reconstructable_core": [
+    "goals", "assists", "shots", "shots_on_target", "assisted_shots", "fouls_drawn", "fouls", "tackles",
+    "interceptions", "yellow_cards", "red_cards"
+  ],
+  "participation_field": "minutes",
+  "null_means_zero_when_participated": [
+    "goals", "shots", "shots_on_target", "assisted_shots", "fouls_drawn", "fouls", "tackles", "interceptions", "saves"
+  ],
+  "unreconstructable": [
+    "crosses", "accurate_passes", "shootout_goals", "shootout_misses", "shootout_saves"
+  ]
+}

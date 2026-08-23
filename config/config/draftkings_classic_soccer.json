@@ -1,0 +1,9 @@
+{
+  "salary_cap": 50000,
+  "roster_size": 8,
+  "roster_slots": ["GK", "D", "D", "M", "M", "F", "F", "UTIL"],
+  "slot_eligibility": {
+    "GK": ["GK"], "D": ["D"], "M": ["M"], "F": ["F"],
+    "UTIL": ["D", "M", "F"]
+  }
+}

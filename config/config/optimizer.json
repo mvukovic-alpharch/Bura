@@ -1,0 +1,19 @@
+{
+  "candidate_pool_size": 5000,
+  "salary_min": 0,
+  "salary_max": 50000,
+  "team_max_players": null,
+  "goalkeeper_vs_opponent_forbidden": false,
+  "ceiling_weights": {"mean": 0.25, "p90": 0.50, "p95": 0.25, "tail_probability": 0.0},
+  "simulation_objective": "p_exceed_target",
+  "target_score": 100.0,
+  "portfolio": {
+    "max_player_exposure": 0.50,
+    "max_goalkeeper_exposure": 0.30,
+    "min_player_exposure": {},
+    "min_unique_players": 2,
+    "max_shared_players": 6,
+    "diversification_penalty": 0.15,
+    "optional_team_stack": null
+  }
+}

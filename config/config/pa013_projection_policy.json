@@ -1,0 +1,32 @@
+{
+  "status": "AUTHORIZED_FOR_FUTURE_USE_AFTER_TRIGGER_ONLY",
+  "activation_requirements": {
+    "real_pa012_run_status": "COMPLETE",
+    "official_xi_required": true,
+    "fixture_level_qa_failures": 0,
+    "projection_and_simulation_versions_must_match": true,
+    "stale_contract_rejected": true
+  },
+  "projection_contract": {
+    "type": "baseline_anchored_hierarchical",
+    "position_baseline_is_anchor": true,
+    "player_model_is_shrunk_toward_baseline": true,
+    "fixed_prior_strength": 50,
+    "standalone_model_superiority_claimed": false,
+    "incremental_value_claimed": false,
+    "optimizer_may_consume_only_pa012_eligible_players": true
+  },
+  "model_risk": {
+    "production_classifier": "existing frozen PA-012 controls",
+    "pa_exp_012_redesign_status": "RESEARCH_ONLY",
+    "pa_exp_012_redesign_may_control_eligibility": false,
+    "promotion_requires": "independent chronological revalidation"
+  },
+  "prohibited_before_activation": [
+    "PA-013 optimizer construction",
+    "lineup generation",
+    "portfolio construction",
+    "further tuning on PA-EXP-011 holdout",
+    "further tuning on PA-EXP-012 train/tune/holdout windows"
+  ]
+}
